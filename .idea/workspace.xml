@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b42c5570-9979-4310-bf29-1669f98d4f0c" name="Changes" comment="кака-то ошибка">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipika.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipika.py" afterDir="false" />
-    </list>
+    <list default="true" id="b42c5570-9979-4310-bf29-1669f98d4f0c" name="Changes" comment="исправлена ошибка" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,12 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738516723307</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="исправлена ошибка">
+      <option name="closed" value="true" />
+      <created>1738696262400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738696262400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="кака-то ошибка" />
-    <option name="LAST_COMMIT_MESSAGE" value="кака-то ошибка" />
+    <MESSAGE value="исправлена ошибка" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправлена ошибка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

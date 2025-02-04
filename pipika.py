@@ -3,6 +3,7 @@ import webbrowser
 from telebot import types
 bot = telebot.TeleBot('7698187197:AAFFNNogj49D1OxUMThQHozGeYOTnKiJKgA')
 
+
 @bot.message_handler(comands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup()
@@ -11,8 +12,7 @@ def start(message):
     btn2 = types.KeyboardButton('удалить фото')
     btn3 = types.KeyboardButton('изменить ответ')
     markup.row(btn2, btn3)
-    bpt.send_message(message.chat.id, 'Привет еще и тут', reply_markup=markup)
-
+    bot.send_message(message.chat.id, 'Привет еще и тут', reply_markup=markup)
 
 
 @bot.message_handler(content_types=['photo'])
